@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication15
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a1, a2, a3, S1, S2;
+
+            a1 = int.Parse(Console.ReadLine());
+            a2 = int.Parse(Console.ReadLine());
+            a3 = int.Parse(Console.ReadLine());
+
+            S1 = a3 - a2;
+            S2 = a2 - a1;
+
+            if (S1 == S2)
+            {
+                Console.WriteLine("bale");
+            }
+            else
+            {
+                Console.WriteLine("kheir");
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
